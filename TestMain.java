@@ -11,11 +11,11 @@ public class TestMain {
 
 		SortingContext context = new SortingContext();
 		
-		// Algoritmo InsertionSort
+		// Algoritmo InsertionSort (DIINF)
 		context.setSortingMethod(new InsertionSort());
 		context.sortNumbers(numbers);
 		
-		// Algoritmo SelectionSort
+		// Algoritmo SelectionSort (DIINF)
 		context.setSortingMethod(new SelectionSort());
 		context.sortNumbers(numbers);
 		
