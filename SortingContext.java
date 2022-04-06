@@ -2,6 +2,7 @@ public class SortingContext {
 	
 	private SortingStrategy strategy;
 	
+	//Metodo principal
 	public void setSortingMethod(SortingStrategy strategy) {
 		this.strategy = strategy;
 	}
